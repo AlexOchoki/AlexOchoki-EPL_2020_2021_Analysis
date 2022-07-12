@@ -1,34 +1,61 @@
-# AlexOchoki-EPL_2020_2021_Analysis
-Contains an analysis of the main metrics in the English Premier League 2020/2021 season
+# English Premier League 2020/2021 Analysis
+#### by
+## Alex Mogengo
 
-English Premier League 2020/2021 Data Analysis with Python
+# About the Project
+This project aims to analyze the major football metrics and statistics for players and teams that were involved in the English Premier League 2020/2021 season. The goal was to compare and evaluate performance against other teams and players based on the recorded statistics using goals, assists, cards, passess and minutes played.
 
-This project contains an Analysis of the key metrics and statistics about teams and players that participated in the 2020/2021 EPL season with the main aim of understanding how they performed from a data point of view.
+# Project overview
+The project sought to understand important football metrics like:
+* Total goals scored
+  * By teams
+  * By players - top scorers
+  * By position
+* Total assists provided
+  * By teams
+  * By players - top scorers
+  * By position
+* Age distribution
+  * By teams
+  * By position
+* Number of players distributed by position
+* Number of players by country of origin
+* Penalties awarded
+    * Total by teams
+    * Penalties scored
+    * League penalty conversion rate
+* Aggression levels by players & team
+* Positional contribution
+  * Goals and assists
+  * Defensive actions
+  * Aggression (red and yellow cards)
 
-The data was obtained from https://fbref.com/ for analysis.
-
-The analysis sought to understand:
-Total goals scored
-Total assists provided
-Age distribution in the teams
-Number of players distributed by position
-Goals & assists distribution by players
-Number of players by country of origin
-Penalties awarded and conversion rate
-Aggression levels per team
 
 
-Data Cleaning process
-Checked for null values
-Checked for duplicated rows
-Leading & trailing spaces
+# Prerequisites
+The following open source packages are used in this project:
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
 
-Exploration Data Analysis
-The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
-Most players' country of origin was England, followed by France and Brazil 
-Youngest player who played was 16 years old with the oldest being 38 years.
-The penalty conversion rate across the League was 81.6%
-Passing accuracy average across the League was 77.8%
-Crystal Palace had the oldest squad - 28.3 years average & Manchester United with the years - 23.8 years average.
-For age distruntion, most players in the league lied with 26-30 & 21-25 being close and 36-40 years being the least
-Teams most likely to be relegated receive the most yellow cards
+# Dataset
+The dataset used for this analysis contains raw premier league statistics data from matchday. This includes information like like the player names, teams, country of origin, number of games played, goals scored, assists provided, passes, cards issued. The data was obtained from [fbref](https://fbref.com/) for analysis.
+
+# Data Cleaning
+After importing the libraries we prepared the data for analysis:
+* Checked and removed null values
+* Checked and removed duplicated rows
+* Checked leading and trailing errors
+
+# Conclusions
+After exploration of the data, analysis was done on the important metrics of team and player perfromance. Among the conclusions arrived in the research include:
+* Most players who played in the league during the season were from England, followed by France and Brazil.
+* Youngest player(s) had 16 years (Shola Shoretire, Dane Scarlett, Carney Chukwuemeka, Antwoine Hackford) while the oldest player was 38 years old (Willy Caballero) 
+* Penalty conversion rate average in the league was 81.6%
+* The passing accuracy average across the League was 77.8%
+* Crystal Palace had the oldest squad (28.3 years) average & Manchester United had the youngest squad (23.8 years) average.
+* For age destruction, most players in the league lied with 26-30 years > 21-25  years > 16-20 years and then 36-40 years being the least.
+* Players between the age 26 - 30 years scored most goals.
+* Teams most likely to be relegated received the most yellow cards
+You can access the code in this [link](https://github.com/AlexOchoki/AlexOchoki-EPL_2020_2021_Analysis/blob/main/English_Premier_League_2020_2021_Analysis%20(1).ipynb)
