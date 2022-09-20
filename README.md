@@ -5,6 +5,9 @@
 # About the Project
 This project aims to analyze the major football metrics and statistics for players and teams that were involved in the English Premier League 2020/2021 season. The goal was to compare and evaluate performance against other teams and players based on the recorded statistics using goals, assists, cards, passess and minutes played.
 
+## English Premier League 2020/2021 Dataset
+This dataset consists of information about all the 20 teams and 532 players that were involved in the English Premier League 2020/2021 season. It has statistics from all the 380 games played through the season. This includes information like like the player names, teams, country of origin, number of games played, goals scored, assists provided, passes, cards issued. The data was obtained from [fbref](https://fbref.com/) for analysis.
+
 # Project overview
 The project sought to understand important football metrics like:
 * Total goals scored
@@ -39,16 +42,15 @@ The following open source packages are used in this project:
 * Matplotlib
 * Seaborn
 
-# Dataset
-The dataset used for this analysis contains raw premier league statistics data from matchday. This includes information like like the player names, teams, country of origin, number of games played, goals scored, assists provided, passes, cards issued. The data was obtained from [fbref](https://fbref.com/) for analysis.
-
 # Data Cleaning
 After importing the libraries we prepared the data for analysis:
 * Checked and removed null values
 * Checked and removed duplicated rows
 * Checked leading and trailing errors
+* Changing the data types
+* Standardizing the capitalization of the columns
 
-# Conclusions
+# Summary of Findings
 After exploration of the data, analysis was done on the important metrics of team and player perfromance. Among the conclusions arrived in the research include:
 * Most players who played in the league during the season were from England, followed by France and Brazil.
 * Youngest player(s) had 16 years (Shola Shoretire, Dane Scarlett, Carney Chukwuemeka, Antwoine Hackford) while the oldest player was 38 years old (Willy Caballero) 
